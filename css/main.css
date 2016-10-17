@@ -5,6 +5,10 @@ html {
 
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 h1 {
   text-align: center;
   color: #b20953;
@@ -14,7 +18,7 @@ h1 {
 }
 
 h1, h2 {
-    font-family: "Sigmar One", cursive;
+  font-family: "Sigmar One", cursive;
 }
 
 h2 {
@@ -58,6 +62,7 @@ section {
   font-family: "Georgia", cursive;
   font-size: 0.75rem;
   color: #2f2d13;
+}
 
 footer {
   text-align: center;
