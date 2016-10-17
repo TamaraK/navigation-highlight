@@ -48,7 +48,7 @@ h2 {
 }
 
 .nav a:hover {
-  background-color: #b20953;
+  background-color: #cc1465;
 }
 
 section {
@@ -57,7 +57,12 @@ section {
   text-align: left;
   font-family: "Georgia", cursive;
   font-size: 0.75rem;
+  color: #2f2d13;
 
 footer {
   text-align: center;
+}
+
+.nav .current {
+  background-color: #b20953;
 }
